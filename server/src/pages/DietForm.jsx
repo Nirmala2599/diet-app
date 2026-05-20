@@ -65,7 +65,7 @@ if (bmiValue < 18.5) {
       
 
       const res = await axios.post(
-        "http://localhost:5000/api/diet/calculate",
+        "https://diet-app-b4iz.onrender.com/api/diet/calculate",
         {
              ...form,
              bmi,
